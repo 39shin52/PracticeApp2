@@ -8,13 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
 
+    let fruits = ["apple", "banana", "orange", "grape"]
+    
+    @IBOutlet weak var FirstTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return fruits.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "SampleCell", for: indexPath)
+        
+        cell.textLabel!.text = fruits[indexPath.row]
+        
+        return cell
+    }
 
 }
 
