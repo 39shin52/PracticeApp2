@@ -15,6 +15,7 @@
 		DA3ECE5E2406489C00744A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3ECE5C2406489C00744A82 /* LaunchScreen.storyboard */; };
 		DA3ECE692406489C00744A82 /* TimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3ECE682406489C00744A82 /* TimerAppTests.swift */; };
 		DA3ECE742406489C00744A82 /* TimerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3ECE732406489C00744A82 /* TimerAppUITests.swift */; };
+		DA994C39241749380069B432 /* ThminTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA994C38241749380069B432 /* ThminTimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DA3ECE6F2406489C00744A82 /* TimerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3ECE732406489C00744A82 /* TimerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAppUITests.swift; sourceTree = "<group>"; };
 		DA3ECE752406489C00744A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA994C38241749380069B432 /* ThminTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThminTimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DA3ECE532406489B00744A82 /* SceneDelegate.swift */,
 				DA3ECE552406489B00744A82 /* ViewController.swift */,
 				DA3ECE572406489B00744A82 /* Main.storyboard */,
+				DA994C38241749380069B432 /* ThminTimerViewController.swift */,
 				DA3ECE5A2406489C00744A82 /* Assets.xcassets */,
 				DA3ECE5C2406489C00744A82 /* LaunchScreen.storyboard */,
 				DA3ECE5F2406489C00744A82 /* Info.plist */,
@@ -262,6 +265,7 @@
 				DA3ECE562406489B00744A82 /* ViewController.swift in Sources */,
 				DA3ECE522406489B00744A82 /* AppDelegate.swift in Sources */,
 				DA3ECE542406489B00744A82 /* SceneDelegate.swift in Sources */,
+				DA994C39241749380069B432 /* ThminTimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
